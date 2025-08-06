@@ -4,57 +4,57 @@
 [![npm downloads](https://img.shields.io/npm/dt/create-electron-shadcn-app.svg?style=flat&color=green)](https://www.npmjs.com/package/create-electron-shadcn-app)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Crie aplicações desktop modernas com **Electron**, **Vite**, **React**, **Tailwind CSS** e **shadcn/ui**, tudo com um único comando.
+Create modern desktop applications using **Electron**, **Vite**, **React**, **Tailwind CSS**, and **shadcn/ui** — all with a single command.
 
-> Um CLI para inicialização rápida de projetos Electron estilizados e responsivos com a UI acessível do shadcn.
+> A CLI tool for quickly scaffolding Electron projects with responsive design and accessible shadcn UI components.
 
-## 🚀 Como usar
+## 🚀 How to use
 
-Você pode criar um novo projeto com:
+You can create a new project using:
 
 ```bash
 npm create electron-shadcn-app@latest
 ```
 
-Ou com `npx`:
+Or with `npx`:
 
 ```bash
 npx create-electron-shadcn-app@latest
 ```
 
-Em seguida, siga as instruções para nomear e configurar seu novo app.
+Then follow the prompts to name and set up your new app.
 
-## 📦 O que está incluso
+## 📦 What's included
 
-- ⚡ **Electron Forge** com plugin **Vite**
-- ⚛️ **React** com **TypeScript**
-- 🎨 **Tailwind CSS** configurado
-- 💅 **shadcn/ui** com suporte a temas e componentes acessíveis
-- ✅ Configuração pronta para empacotar o app
-- 💻 Scripts úteis (`start`, `make`, `lint`, etc)
+- ⚡ **Electron Forge** with **Vite** plugin
+- ⚛️ **React** with **TypeScript**
+- 🎨 **Tailwind CSS** preconfigured
+- 💅 **shadcn/ui** with theme and accessibility support
+- ✅ Ready-to-package Electron configuration
+- 💻 Helpful scripts (`start`, `make`, `lint`, etc)
 
-## 🛠️ Scripts disponíveis
+## 🛠️ Available scripts
 
 ```bash
-npm start         # Inicia o app em modo desenvolvimento
-npm run make      # Empacota o app para produção
+npm start         # Launch the app in development mode
+npm run make      # Package the app for production
 ```
 
-## 🧪 Requisitos
+## 🧪 Requirements
 
 - Node.js >= 18
 - npm >= 9
 
-## 📦 Publicação
+## 📦 Publishing
 
-Este CLI está disponível no [npm](https://www.npmjs.com/package/create-electron-shadcn-app).
+This CLI is available on [npm](https://www.npmjs.com/package/create-electron-shadcn-app).
 
-Repositório: [github.com/acrisiodejesus/create-electron-shadcn-app](https://github.com/acrisiodejesus/create-electron-shadcn-app)
+Repository: [github.com/acrisiodejesus/create-electron-shadcn-app](https://github.com/acrisiodejesus/create-electron-shadcn-app)
 
-## 🤝 Contribuindo
+## 🤝 Contributing
 
-Pull requests são bem-vindos! Sinta-se livre para sugerir melhorias, adicionar templates, ou novos recursos.
+Pull requests are welcome! Feel free to suggest improvements, add templates, or new features.
 
-## 📝 Licença
+## 📝 License
 
 MIT © [Acrísio De Jesus](https://github.com/acrisiodejesus)
