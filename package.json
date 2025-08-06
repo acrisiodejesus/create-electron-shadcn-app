@@ -1,6 +1,6 @@
 {
   "name": "create-electron-shadcn-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Crie apps Electron Forge com Vite, React, Tailwind e shadcn/ui com um clique.",
   "bin": {
     "create-electron-shadcn-app": "./index.js"
