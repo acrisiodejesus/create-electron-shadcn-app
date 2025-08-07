@@ -15,8 +15,8 @@ const run = async () => {
   const response = await prompts({
     type: "text",
     name: "projectName",
-    message: "Nome do projeto:",
-    initial: "meu-app-electron",
+    message: "Project Name:",
+    initial: "my-electron-app",
   });
 
   const { projectName } = response;
@@ -24,13 +24,15 @@ const run = async () => {
   const templateDir = path.resolve(__dirname, "template");
 
   if (fs.existsSync(targetDir)) {
-    console.log(chalk.red(`\n❌ A pasta ${projectName} já existe.`));
+    console.log(chalk.red(`\n❌ The directory ${projectName} already exist.`));
     process.exit(1);
   }
 
   await fs.copy(templateDir, targetDir);
-  console.log(chalk.green(`\n✅ Projeto criado em ${projectName}`));
-  console.log(chalk.yellow(`\n📦 Rode:`));
+  console.log(
+    chalk.green(`\n✅ Your project has been created in ${projectName}`)
+  );
+  console.log(chalk.yellow(`\n📦 Run the follow command in your terminal:`));
   console.log(`  cd ${projectName}`);
   console.log(`  npm install`);
   console.log(`  npm start`);
